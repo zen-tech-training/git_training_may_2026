@@ -1,0 +1,9 @@
+Steps for rebasing:
+1) Make 2 commits in master branch M1, M2 into master.txt file.
+2) Create "feature" branch & make 2 commits F1, F2 into feature.txt
+3) Make 2 more commits to master M3, M4 into master.txt
+4) Check the history of both master & feature branch.
+5) Switch to feature branch & run "git rebase master" command
+6) Check the change in the feature branch history
+7) Finally switch to master & run "git merge feature" command.
+8) Check the change in the master branch history
